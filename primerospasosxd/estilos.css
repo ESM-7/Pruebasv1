@@ -1,0 +1,173 @@
+/* Reset general para eliminar márgenes, relleno y ajustar el box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif; /* Se establece Arial como fuente por defecto */
+}
+
+/* Estilo general para el cuerpo de la página */
+body {
+    background-color: antiquewhite; /* Fondo color blanco antiguo */
+    display: flex; /* Usamos flexbox para centrar el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    height: 100vh; /* El contenido ocupa toda la altura de la ventana */
+}
+
+/* Contenedor principal */
+.container {
+    width: 80%; /* El contenedor ocupa el 80% del ancho de la página */
+    background-color: white; /* Fondo blanco */
+    padding: 20px; /* Relleno interno */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil para dar profundidad */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Cabecera del perfil */
+.profile-header {
+    text-align: center; /* Centra el texto */
+    margin-bottom: 20px; /* Espacio inferior */
+    background-color: #e0e0e0; /* Fondo gris claro */
+    padding: 20px; /* Relleno interno */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Contenedor de la imagen del perfil */
+.profile-pic-container {
+    display: inline-block; /* Para que la imagen esté alineada en línea */
+    padding: 10px; /* Relleno alrededor de la imagen */
+    border-radius: 50%; /* Imagen circular */
+    border: 3px solid #ca3126; /* Borde rojo alrededor de la imagen */
+    background-color: #f4f4f9; /* Fondo claro */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+/* Estilo de la imagen del perfil */
+.profile-pic {
+    border-radius: 50%; /* La imagen también es circular */
+    width: 100px; /* Ancho de la imagen */
+    height: 100px; /* Alto de la imagen */
+}
+
+/* Título principal */
+h1 {
+    font-size: 24px; /* Tamaño de la fuente */
+    color: #333; /* Color de texto oscuro */
+}
+
+/* Estilo de la descripción breve */
+.tagline {
+    font-size: 14px; /* Fuente más pequeña */
+    color: #777; /* Texto gris claro */
+}
+
+/* Contenedor para las secciones de contenido */
+.content {
+    display: flex; /* Flexbox para disposición horizontal */
+    justify-content: space-between; /* Espaciado igual entre secciones */
+}
+
+/* Estilo para las tres secciones: izquierda, medio y derecha */
+.left-section, .middle-section, .right-section {
+    width: 32%; /* Cada sección ocupa un 32% del ancho total */
+}
+
+/* Títulos secundarios */
+h2 {
+    font-size: 18px; /* Tamaño de fuente menor */
+    color: #444; /* Color gris oscuro */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+/* Estilo de párrafos, listas no ordenadas y elementos de lista */
+p, ul, li {
+    font-size: 14px; /* Tamaño de fuente uniforme */
+    color: #000000; /* Texto en negro */
+}
+
+/* Estilo para enlaces */
+a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #007BFF; /* Color azul predeterminado */
+}
+
+/* Estilo al pasar el ratón sobre los enlaces */
+a:hover {
+    text-decoration: underline; /* Añade subrayado al pasar el ratón */
+}
+
+/* Estilo para listas no ordenadas */
+ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding-left: 10px; /* Relleno a la izquierda para alinear mejor */
+}
+
+/* Espacio entre elementos de lista */
+ul li {
+    margin-bottom: 5px; /* Margen inferior entre elementos */
+}
+
+/* Estilo de imágenes generales */
+img {
+    width: 35px; /* Ancho de la imagen */
+    height: auto; /* Altura automática para mantener proporción */
+    display: block; /* Imagen en bloque */
+}
+
+/* Estilo general para las barras de progreso */
+.progress-bar {
+    background-color: #e0e0e0; /* Fondo gris claro para la barra */
+    border-radius: 8px; /* Bordes redondeados */
+    height: 10px; /* Altura de la barra */
+    margin-bottom: 10px; /* Espacio inferior */
+    overflow: hidden; /* Oculta desbordamiento en caso de barras largas */
+}
+
+/* Estilo interno de la barra de progreso */
+.progress {
+    height: 100%; /* Ocupa toda la altura del contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Colores específicos para cada tecnología */
+
+/* Color para la barra de progreso de HTML */
+.html {
+    background-color: #f16529; /* Naranja representativo de HTML */
+}
+
+/* Color para la barra de progreso de CSS */
+.css {
+    background-color: #2965f1; /* Azul representativo de CSS */
+}
+
+/* Color para la barra de progreso de JavaScript */
+.js {
+    background-color: #f0db4f; /* Amarillo representativo de JavaScript */
+}
+
+/* Color para la barra de progreso de C# */
+.cscharp {
+    background-color: #b600ce; /* Morado representativo de C# */
+}
+
+/* Color para la barra de progreso de Java */
+.java {
+    background-color: #f0db4f; /* Amarillo (similar a JS) para Java */
+}
+
+/* Color para la barra de progreso de Kotlin */
+.kotlin {
+    background-color: rgb(50, 198, 201); /* Azul-verdoso para Kotlin */
+}
+
+/* Color para la barra de progreso de TypeScript */
+.Ty {
+    background-color: chartreuse; /* Verde para TypeScript */
+}
+
+/* Color para la barra de progreso de Python */
+.python {
+    background-color: #4B8BBE; /* Azul característico de Python */
+}
